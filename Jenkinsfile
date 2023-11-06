@@ -12,6 +12,6 @@ pipeline {
 	                 }}
 		stage('Deployment'){
 		   steps {
-		sh 'cp target/rolex.war /home/pranotz/Documents/DevOps-Software/apache-tomcat-9.0.79/webapps'
+		sh 'cp target/rolex.war /home/pranotz/Documents/Devops_software/apache-tomcat-9.0.82/bin'
 			}}	
 }}
